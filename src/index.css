@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.quiz-title{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    margin: 25px;
+}
+.app{
+    width: 50%;
+    margin: 200px auto;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 30px;
+}
+.answer-button{
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.answer-button:hover{
+    background-color: gray;
+    color: #fff;
+}
+.question{
+    font-weight: bolder;
+    font-size: medium;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.summery{
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.summery h3{
+    color: #fff;
+}
+.summery img{
+    border-radius: 50%;
+}
+#progress-bar{
+    width: 100%;
+    margin: 10px 0;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+.quiz-info{
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.quiz-results{
+    display: inline;
+}
+.correct-answer{
+    color: green;
+}
+
+.wrong-answer{
+    color: red;
 }
